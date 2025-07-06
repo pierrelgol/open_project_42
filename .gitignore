@@ -1,3 +1,130 @@
-.zig-cache/
-zig-out/
+# === C / C++ Artifacts ===
 *.o
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.gcno
+*.gcda
+*.gcov
+*.su
+*.dSYM/
+*.lprof
+
+# Build directories
+/build/
+/bin/
+/obj/
+/Debug/
+/Release/
+
+# Make
+Makefile~
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# === Python ===
+# Bytecode
+*.py[cod]
+__pycache__/
+**/__pycache__/
+**/.venv/
+/.venv/
+
+# Logs
+*.log
+*.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache/
+nosetests.xml
+*.mo
+*.pot
+
+# Wheels and build
+*.whl
+build/
+dist/
+pip-wheel-metadata/
+.eggs/
+*.egg-info/
+MANIFEST
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+.venv.bak/
+.pyenv/
+python_env/
+.python-version
+
+# Virtualenv / Pipenv / Poetry
+Pipfile.lock
+Pipfile
+poetry.lock
+poetry.toml
+poetry.yaml
+
+# Conda
+conda-meta/
+*.conda
+*.ipynb_checkpoints
+
+# PyInstaller
+*.spec
+
+# MyPy / Pyright / Pylint
+.mypy_cache/
+.pyre/
+.pytype/
+.dmypy.json
+.pyright/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode Python
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# === Zig ===
+.zig-cache/
+zig-cache/
+zig-out/
+
+# === Editors / IDEs ===
+# VSCode
+.vscode/
+.code-workspace
+
+# JetBrains / CLion
+.idea/
+*.iml
+cmake-build-*/
+
+# === OS / Misc ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
